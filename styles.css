@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    background-color: yellowgreen;
+
+}
+
+label {
+    display: block;
+    padding-bottom: 1rem;
+
+}
