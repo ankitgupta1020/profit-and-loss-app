@@ -1,4 +1,3 @@
-
 var initialPrice = document.querySelector('#initial-price');
 var stocksQuantity = document.querySelector('#stocks-quantity');
 var currentPrice = document.querySelector('#current-price');
@@ -12,7 +11,7 @@ function submitHandler() {
     var qty = Number(stocksQuantity.value);
     var curr = Number(currentPrice.value);
 
-    calculateProfitAndLoss(ip, qty, curr); 
+    calculateProfitAndLoss(ip, qty, curr);
 }
 
 function calculateProfitAndLoss(initial, quantity, current) {
@@ -31,6 +30,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
 
     }
 }
-function showOutput(message){
+
+function showOutput(message) {
     outputBox.innerHTML = message;
 }
